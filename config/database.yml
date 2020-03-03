@@ -16,6 +16,7 @@ production:
   database: microposts_production
   username: microposts
   password: <%= ENV['MESSAGE-BOARD_DATABASE_PASSWORD'] %>
+  host: localhost
   
 
 development:
